@@ -12,13 +12,12 @@ beatles.append('george')
 print(len(beatles))
 print(beatles)
 
-for index in range(len(beatles)):
-    beatles[index] = beatles[index].upper()
-    
-#beatles[0] = beatles[0].upper()
-#beatles[1] = beatles[1].upper()
-#beatles[2] = beatles[2].upper()
-#beatles[3] = beatles[3].upper()
+
+# for loop instead    
+beatles[0] = beatles[0].upper()
+beatles[1] = beatles[1].upper()
+beatles[2] = beatles[2].upper()
+beatles[3] = beatles[3].upper()
 
 
 print(beatles)
@@ -26,11 +25,11 @@ del(beatles[0])
 
 print(beatles)
 
+# CRUD
 # Create => list.append(element)
 # Read => list[index] / list[start:end]
 # Update => list[index] = new_value
 # Delete => del(list[index])
-#print(enumerate(beatles))
 
 for index, beatle in enumerate(beatles):
     print(f"{index + 1}. {beatle}")

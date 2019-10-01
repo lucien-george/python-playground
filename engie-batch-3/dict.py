@@ -32,14 +32,5 @@ for name, phone in phones.items():
 cities = ['paris', 'london', 'brussels']
 
 
-#for city in cities:
-
-
-
-
-
-
-
-
-
-
+for city in cities:
+    print(city.capitalize())

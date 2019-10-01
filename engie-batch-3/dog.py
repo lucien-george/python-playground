@@ -9,21 +9,15 @@ class Dog():
         self.tricks.append(trick_name)
 
 snoopy = Dog('snoopy')
-pongo = Dog()
-print(snoopy.properties())
-print(pongo.name)
-#print("Snoopy what can you do?")
-#print(snoopy.tricks)
-#snoopy.learn('sit')
-#print("Snoopy what can you do?")
-#print(snoopy.tricks)
-#print("Pongo what can you do?")
-#print(pongo.tricks)
-#print(snoopy.bark())
-#pongo = Dog()
+pongo = Dog('pongo')
+print("Snoopy what can you do?")
+print(snoopy.tricks)
+snoopy.learn('sit')
+print("Snoopy what can you do?")
+print(snoopy.tricks)
+print("Pongo what can you do?")
+print(pongo.tricks)
 
-#print(type(snoopy))
-#print(type(pongo))
 
 # => DATA (nouns)
 # tail
@@ -41,17 +35,3 @@ print(pongo.name)
 # run
 # eat
 # sleep
-
-
-
-
-
-
-
-
-
-
-
-
-
-
