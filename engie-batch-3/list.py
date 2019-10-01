@@ -33,21 +33,3 @@ print(beatles)
 
 for index, beatle in enumerate(beatles):
     print(f"{index + 1}. {beatle}")
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

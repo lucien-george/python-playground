@@ -21,6 +21,7 @@ print('geddeorge' in phones)
 del(phones['george'])
 #print(phones)
 
+# CRUD
 # create => dict['key'] = value
 # read => dict['key']
 # update => dict['key'] = new_value
