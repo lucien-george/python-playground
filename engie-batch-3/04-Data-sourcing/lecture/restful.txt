@@ -1,0 +1,34 @@
+building an api for restaurants
+
+get all the restaurants
+get one restaurant based on their id
+create a restaurant
+update a restaurant
+delete a restaurant
+
+
+Endpoints:
+GET /restaurants
+GET /restaurants/:id
+POST /restaurants
+PUT/PATCH /restaurants/:id
+DELETE /restaurants/:id
+
+response['address']['state']
+
+
+data = {
+  'consolidated-weather': []
+}
+
+list [1,2,3,4]
+
+data['consolidated-weather']
+
+
+
+
+
+
+
+
