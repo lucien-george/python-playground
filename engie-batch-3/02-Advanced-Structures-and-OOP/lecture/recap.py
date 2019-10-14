@@ -1,5 +1,5 @@
 # Types
-# => flaot, int, str, list, dict, bool, None
+# => float, int, str, list, dict, bool, None
 # Variables
 city = 'paris' # assignment
 city = city.capitalize() # re-assignment
