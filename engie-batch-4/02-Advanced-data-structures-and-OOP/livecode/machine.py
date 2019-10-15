@@ -1,11 +1,7 @@
 # -*- coding: utf-8 -*-
-from enum import Enum
 
-class Coin(Enum): # inheritance from Enum class
-    DOLLAR = 100
-    QUARTER = 25
-    DIME = 10
-    NICKEL = 5
+class Coin:
+    pass
     
 class Rack:
     pass
