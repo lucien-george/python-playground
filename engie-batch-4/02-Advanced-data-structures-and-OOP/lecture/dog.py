@@ -4,7 +4,7 @@ class Dog():
     def __init__(self, name):
         # data
         self.name = name # instance variables
-        self.tricks = tricks # instance variables
+        self.tricks = [] # instance variables
         
     def learn(self, trick): # => behavior
         self.tricks.append(trick)
