@@ -1,0 +1,20 @@
+we want to create an api for restaurants
+
+# Create
+- Create a restaurant
+# Read
+- Get all/multiple restaurants
+- Get one restaurants by their id
+# Update
+- update a restaurant
+# Detlete
+- delete restaurant
+
+base_url = www.tripadvisor.com/api/v1/
+
+Endpoints:
+GET /restaurants
+GET /restaurants/:id
+POST /restaurants
+PUT/PATCH /restaurants/:id
+DELETE /restaurants/:id
