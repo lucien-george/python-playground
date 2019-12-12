@@ -9,3 +9,7 @@ data = json.dumps(data) # data is a string that looks like JSON
 data = json.loads(data) # convert data to JSON
 print(data) # => {'beers': {'title': 'Great beers', 'beer': [{'name': 'Edelweiss', 'appearance': 'White', 'origin': 'Austria'}, {'name': 'Cuvée des Trolls', 'appearance': 'Blond', 'origin': 'Belgium'}]}}
 print(data['beers']) # => {'title': 'Great beers', 'beer': [{'name': 'Edelweiss', 'appearance': 'White', 'origin': 'Austria'}, {'name': 'Cuvée des Trolls', 'appearance': 'Blond', 'origin': 'Belgium'}]}
+result = []
+for beer in data['beers']['beer']:
+  result.append({'name': beer['name'], 'origin': beer['origin']})
+print(result)
