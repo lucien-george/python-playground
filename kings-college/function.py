@@ -3,7 +3,7 @@
 def can_you_drink(age): # parameter
     if age >= 21:
         return "you can drink in the US"
-    if age>= 18:
+    elif age>= 18:
         return "You can drink"
     else:
         return "Sorry you can't drink"
